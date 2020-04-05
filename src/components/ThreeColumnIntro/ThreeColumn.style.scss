@@ -1,15 +1,18 @@
 .Three {
       text-align: center;
+      display: flex;
+      flex-direction: row-reverse;      
       width: 100%;
       height: 200px;        
 }
+
 .Column {
-    float: left;
-    width: 30.0%;
+    width: 100%;
     font-size: 2em;
     margin: 1.66%;
     font-weight: 600;
 }
+
 .Content {
     color: gray;
     font-weight: 100;
