@@ -1,6 +1,6 @@
 import React from 'react';
 import './FirstPage.style.scss';
-import Logo from './logo.png';
+import Logo from '../../assets/images/logo.png';
 const FirstPage = () => (
     <div class="Firstpage">
   <div class="tittle">

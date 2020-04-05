@@ -2,8 +2,7 @@ import React from 'react';
 import './ThreeColumn.style.scss';
 const ThreeColumn = () => (
     <div class="Three">
-        <div className="Column">
-            
+        <div className="Column">            
             <span>SEGURA TALENT</span>
             <div className="Content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quam quo quibusdam ut natus architecto</div>
         </div>
@@ -14,8 +13,7 @@ const ThreeColumn = () => (
         <div className="Column">
         <span>SEGURA VAULT</span>
         <div className="Content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quod sint. Natus enim autem, minus sapiente!</div>
-        </div>
-        
+        </div>        
     </div>
     
     

@@ -1,9 +1,7 @@
 .header {
-
-
-size: 2em;
-
+  size: 2em;
 }
+
 .option {
   line-height: 2em;
   margin-right: 1.75em;
@@ -18,33 +16,22 @@ size: 2em;
     text-decoration: none;
   }
 }
-  .options {
-    text-align: right;
-    
-    margin-right: 5%;
-    text-decoration: none;
-    padding-bottom: 10px;    
-   
- 
-  
-  }
-  
-  hr{
-    color: red;
-  }
-      
-  .logu {
-    text-align: left;
-   
-    text-align: start;
-    margin-right: 50%;
-    
-width: 5%;
 
-  }
-  img {
-    width: 1000px;
-    text-align: center;
-    align-items: center;
-    
+.options {
+  text-align: right;    
+  margin-right: 5%;
+  text-decoration: none;
+  padding-bottom: 10px;
 }
+  
+hr{
+  color: red;
+}
+    
+.logu {
+  text-align: left;  
+  text-align: start;
+  margin-right: 50%;    
+  width: 5%;
+}
+
