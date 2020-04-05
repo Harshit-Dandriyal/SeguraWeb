@@ -6,6 +6,7 @@ import FirstPage from './Content/firstpage/FirstPage';
 import SideComponent from './Content/secondpage/RightAgain';
 import SideeComponent from './Content/secondpage/side-side';
 import RightComponent from './Content/secondpage/right-side';
+import StaticImage from './Content/thirdpage/staticImage';
 import ThreeColumn from './Content/firstpage/ThreeColumn';
 import Button from 'react-bootstrap/Button';
 import testimg from './images/test.jpeg';
@@ -39,11 +40,13 @@ function App() {
       <FirstPage/>
       <ThreeColumn/>
       <hr></hr>
-      
+     
       <SideComponent img={testimg}/>
       <RightComponent img={airportimg}/>
       <SideeComponent img={movieimg} side={c}/>
+      <StaticImage/>
       
+
      
       <Switch>
         
