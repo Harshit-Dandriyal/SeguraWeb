@@ -1,13 +1,8 @@
-
 import React from 'react';
 import './side-side.style.scss';
-import testimg from './images/test.jpeg';
-import airportimg from './images/airport.PNG';
-import movieimg from './images/movie.jpg';
-import Button from 'react-bootstrap/Button';
+
 const SideeComponent= ({img,side,text}) => (
-    <div className={`${side} row Compoo`} 
-    >
+    <div className={`${side} row Compoo`}>    
          <div className="col-md-1"></div>
          <div className="col-md-2"><img src={img} className="photu" alt="test"/></div>
          <div className="col-md-3">
