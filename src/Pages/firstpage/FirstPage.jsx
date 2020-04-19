@@ -1,5 +1,5 @@
 import React from 'react';
-import './FirstPage.style.scss';
+import './firstPage.style.scss';
 import Logo from '../../assets/images/logo.png';
 import ThreeColumn from '../../components/ThreeColumnIntro/ThreeColumn'
 
