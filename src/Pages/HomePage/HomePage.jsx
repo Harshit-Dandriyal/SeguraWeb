@@ -14,18 +14,7 @@ import testimg from '../../assets/images/test.jpeg';
 import airportimg from '../../assets/images/airport.PNG';
 import movieimg from '../../assets/images/movie.jpg';
 
-const ReviewPage = () => (
-    <h1>ReviewPage</h1>
-  );
-const FaqsPage = () => (
-    <h1>FaqsPage</h1>
-  );
-  const joinusPage = () => (
-    <h1>joinusPage</h1>
-  );
-  const ourteamPage = () => (
-    <h1>ourteamPage</h1>
-  );
+
 class HomePage extends React.Component{
 
 
@@ -33,6 +22,7 @@ render(){
     return(
 
 <div>
+
     <Header/>
     <hr></hr>
     <FirstPage/>
@@ -42,13 +32,7 @@ render(){
      <SideComponent img={testimg}/>
    <RightComponent img={airportimg}/>
    <SideeComponent img={movieimg}/>
-      <Switch>
-        
-        <Route exact path='/Review' component={ReviewPage} />
-        <Route path='/FAQ' component={FaqsPage} />
-        <Route path='/Join' component={joinusPage} />
-        <Route path='/Team' component={ourteamPage} />
-      </Switch>
+      
     </div>
 
 
