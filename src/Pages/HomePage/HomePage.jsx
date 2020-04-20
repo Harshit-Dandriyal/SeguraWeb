@@ -13,7 +13,11 @@ import Button from 'react-bootstrap/Button';
 import testimg from '../../assets/images/test.jpeg';
 import airportimg from '../../assets/images/airport.PNG';
 import movieimg from '../../assets/images/movie.jpg';
-
+import FifthPage from '../FifthPage/fifthPage';
+import SixthPage from '../SixthPage/sixthPage';
+import SeventhPage from '../SeventhPage/seventhPage';
+import EighthPage from '../EighthPage/eighthPage';
+import LastPage from '../LastPage/lastPage';
 
 class HomePage extends React.Component{
 
@@ -28,11 +32,14 @@ render(){
     <FirstPage/>
    
      <SecondPage/>
+     <FifthPage/>
      <ThirdPage/>
-     <SideComponent img={testimg}/>
-   <RightComponent img={airportimg}/>
-   <SideeComponent img={movieimg}/>
-      
+     
+   
+   <SixthPage/>
+   <SeventhPage/>
+   <EighthPage/>
+   <LastPage/>
     </div>
 
 

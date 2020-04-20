@@ -1,7 +1,7 @@
 import React from 'react';
 import './eighthPage.style.scss';
 
-const eighthPage = () => (
+const EighthPage = () => (
     <div>
     <div class="">    
 
@@ -14,4 +14,4 @@ const eighthPage = () => (
     </div>
     </div>
   );
-  export default eighthPage;
+  export default EighthPage;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './lastPage.style.scss';
 
-const lastPage = () => (
+const LastPage = () => (
     <div>
     <div class="">    
 
@@ -14,4 +14,4 @@ const lastPage = () => (
     </div>
     </div>
   );
-  export default lastPage;
+  export default LastPage;

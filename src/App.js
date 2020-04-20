@@ -40,9 +40,10 @@ function App() {
       
 
      <div>
+       
        <Switch>
         
-        <Route exact path='/Review' component={HomePage} />
+        <Route exact path='/' component={HomePage} />
         <Route path='/FAQ' component={FirstPage} />
         <Route path='/Join' component={joinusPage} />
         <Route path='/Team' component={ourteamPage} />

@@ -36,7 +36,40 @@ const ThirdPage = () => (
                         </div>
 
                     </div>
-                    <div class="col-6"></div>
+                    <div class="col-6 ">
+                        <div class="ThIcons row justify-content-around">
+                            <div class="col-3"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                            <div class="col-3"><i class=" fa fa-shopping-bag" aria-hidden="true"></i></div>
+                            <div class="col-3"><i class=" fa fa-shopping-bag" aria-hidden="true"></i></div>
+                            
+                    
+
+                        </div>
+                        <div class="Fobreak-2"></div>
+                        <div class="ThIcons row justify-content-around">
+                            <div class="col-3"><i class="fa fa-briefcase" aria-hidden="true"></i>
+</div>
+                            <div class="col-3"><i class="fa fa-briefcase" aria-hidden="true">
+</i></div>
+                            <div class="col-3"><i class="fa fa-briefcase" aria-hidden="true">
+</i></div>
+                            
+                    
+
+                        </div>
+                        <div class="Fobreak-2"></div>
+                        <div class="ThIcons row justify-content-center align-items-center">
+                        <div class='col-1'></div>
+                            <div class="col-5"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                            <div class="col-5"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                           
+                         
+                            
+                    
+
+                        </div>
+                    
+                    </div>
                     
                      </div>
 

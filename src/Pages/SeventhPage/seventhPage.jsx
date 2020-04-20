@@ -1,7 +1,7 @@
 import React from 'react';
 import './seventhPage.style.scss';
 
-const seventhPage = () => (
+const SeventhPage = () => (
     <div>
     <div class="">    
 
@@ -14,4 +14,4 @@ const seventhPage = () => (
     </div>
     </div>
   );
-  export default seventhPage;
+  export default SeventhPage;
