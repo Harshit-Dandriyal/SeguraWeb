@@ -30,7 +30,7 @@ class FirstPage extends React.Component {
      render() {
           return <div class="Firstpage">
                <div class="tittle">
-                    <img src={Logo} alt='website logo' />
+                    <img class="FiImage" src={Logo} alt='website logo' />
                </div>
                <div class="titledetail">
                     JOIN THE SEGURA LUGGAGE STORAGE

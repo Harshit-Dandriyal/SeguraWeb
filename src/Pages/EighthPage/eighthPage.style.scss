@@ -1,0 +1,47 @@
+.row{
+width: 100%;
+}
+.EightPage{
+    float: left;
+    height: 60em;
+}
+.EiImg{
+    margin-left: 5%;
+    height: 20%;
+}
+.ElImage{
+    margin-left: 28%;
+    margin-right: 1%;
+}
+.ErImage{
+    margin-right: 28%;
+    margin-left: 1%;
+}
+.M-Image{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#EIMG{
+    border: thin solid black;
+  
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 10em;
+ 
+    transition: transform .2s;
+    width: 13.33%;
+}
+#EIMG:hover {
+    -ms-transform: scale(3);
+    -webkit-transform: scale(3); 
+    transform: scale(2.0); 
+  }
+
+.EiTitle{
+    font-size: 3em;
+    text-align: center;
+    color: gray;
+    font-family: cursive;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}

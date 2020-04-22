@@ -9,10 +9,13 @@ import SideComponent from './Pages/ForthPage/LeftAgain';
 import SideeComponent from './Pages/ForthPage/side-side';
 import RightComponent from './Pages/ForthPage/right-side';
 import ThreeColumn from './components/ThreeColumnIntro/ThreeColumn';
-import Button from 'react-bootstrap/Button';
 import testimg from './assets/images/test.jpeg';
 import airportimg from './assets/images/airport.PNG';
 import movieimg from './assets/images/movie.jpg';
+import $ from 'jquery';
+
+
+  
 
   const ReviewPage = () => (
     <h1>ReviewPage</h1>

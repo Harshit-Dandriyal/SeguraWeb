@@ -4,12 +4,12 @@ import './thirdPage.style.scss';
 const ThirdPage = () => (
          <div class="ThirdPage">
              <div class="NUM row justify-content-center align-items-center">
-                <div class="Fnum">
-                    100,000
+                <div class="Fnum" id="value">
+                    10,000
                    
 
                 </div>
-                <div  class="row " >
+                <div  class="row" id="Signo" >
                     <div id="numsign" class="col-12 mb-6">
                         +
                     </div>
